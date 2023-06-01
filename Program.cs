@@ -38,7 +38,6 @@ namespace Homework2_module2
             Order test = new Order(basket.BasketProduct, bob);
             basket.CleanBasket();
             test.PrintInfo();
-            Console.WriteLine();
         }
     }
 }
